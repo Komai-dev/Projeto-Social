@@ -29,9 +29,25 @@ main > div#iphone {
     background-size: contain;
 }
 main > div#iphone > div#teladoiphone {
+    width: 14.65vw;
+    height: 56.2vh;
+    position: relative;
+    top: 12.99%;
+    left: 6.01%;
+    background-color: lightskyblue;
+}
+main > div#iphone > iframe {
+    width: 14.5vw;
+    height: 56.4vh;
+    position: absolute;
+    top: 13%;
+    left: 6.3%;
+    block-size: contain;
+}
+/*main > div#iphone > div#teladoiphone {
     min-width: 10vw;
     width: 14.5vw;
-    height: 56.5vh;
+    height: 56.4vh;
     position: relative;
     top: 50%;
     left: 49.7%;
@@ -41,4 +57,30 @@ main > div#iphone > div#teladoiphone {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+}*/
+nav {
+    width: 70px;
+    height: 600px;
+    position: absolute;
+    right: .3%;
+    background-color:lightblue;
+}
+nav > a.logosnav{
+    position: relative;
+    top: 2%;
+    
+}
+nav > a > .formatoimg {
+    height: 40px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    display: block;
+    margin: 5px auto 15px;
+    box-shadow: 0.7px 3px 3px rgba(0, 0, 0, 0.5);
+}
+nav > a > img.formatoimg:hover {
+    border: 2px solid white;
+    transition: .1s;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.514);
+
 }
