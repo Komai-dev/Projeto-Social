@@ -21,20 +21,21 @@ main {
 }
 main > div#iphone {
     min-width: 18vw;
-    width: 24vw;
-    height: 80vh;
-    position: relative;
+    width: 20vw;
+    height: 75vh;
+    position: absolute;
     background-image: url(../imagens/frame-iphone.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 main > div#iphone > div#teladoiphone {
     min-width: 10vw;
-    width: 15.5vw;
-    height: 60vh;
+    width: 14.5vw;
+    height: 56.5vh;
     position: relative;
-    top: 12.8%;
-    left: 5.5%;
+    top: 50%;
+    left: 49.7%;
+    transform: translate(-60%, -49.5%);
     background-image: url(../imagens/tela-home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
