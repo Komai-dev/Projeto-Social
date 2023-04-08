@@ -15,7 +15,6 @@ html, body {
 body {
     background: url('../imagens/fundo-madeira.jpg') no-repeat top center fixed;
     background-size: cover;
-    
 }
 
 main {
@@ -31,6 +30,14 @@ section#telefone {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background: url('../imagens/frame-iphone.png') no-repeat
+}
 
-    background: lightblue url('../imagens/frame-iphone.png') no-repeat
+#tela {
+    width: 267px;
+    height: 471px;
+    
+    position: relative;
+    top: 80px;
+    left: 22px;
 }
